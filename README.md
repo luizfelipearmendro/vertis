@@ -12,6 +12,13 @@ O projeto **Vertis** é composto por quatro microsserviços independentes que se
 
 ---
 
+## 🧰 Tecnologias
+- `ASP.NET Core 8`
+- `Entity Framework Core`
+- `QuestPDF (geração de PDF)`
+- `CsvHelper (leitura de CSV)`
+- `Swagger (documentação de API)`
+
 ## 🧱 Arquitetura
 
 Cada serviço é um projeto ASP.NET Core Web API, com banco de dados local via Entity Framework Core. A comunicação entre serviços é feita por HTTP Clients com DTOs desacoplados.
@@ -23,3 +30,9 @@ Cada serviço é um projeto ASP.NET Core Web API, com banco de dados local via E
 [HoleriteService] → GET → [FuncionarioService]
                  → GET → [EventoService]
                  → PDF → Swagger ou download
+```
+---
+
+🤝 Contribuições
+
+Sinta-se à vontade para abrir issues, enviar PRs ou sugerir melhorias. Este projeto está em evolução contínua.
